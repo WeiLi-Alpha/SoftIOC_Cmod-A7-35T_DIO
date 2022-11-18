@@ -19,7 +19,6 @@ The steps of programing is written, which can be found in the
 [ProgramCmodA7-35T.md](Hardware/ProgramCmodA7-35T.md) in `Hardware`. 
 
 ## 2. Run the IOC
-1.1 Preparation
 The softIOC was developed with python, and `pythonSoftIOC` is the main module that provides the 
 interface with EPICS. The python script was developed and tested with `Python 3.10.4`.
 ## 2.1 Preparation
