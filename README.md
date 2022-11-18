@@ -54,6 +54,11 @@ If your default Python is `Python3`, the script header can be changed to
 #!/usr/bin/env python
 ```
 
+The usb port should be checked on the IOC server, usually it is `COMXX` in windows and 
+`/dev/ttyUSBXX` in linux. The default setting in [IOC_CmodA735T_DIO.py](Scripts/IOC_CmodA735T_DIO.py) 
+is `/dev/ttyUSB1` for testing in a linux system. It should be changed to the correct
+port if different.
+
 ### 2.3 MEMD-based GUI
 On the client-server, add the IOC server is in the `EPICS_CA_ADDR_LIST`. Then, run the 
 `CmodA7_35T_Main.adl`, click the button to open the control panel.
