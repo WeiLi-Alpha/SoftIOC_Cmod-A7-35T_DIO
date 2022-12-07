@@ -15,8 +15,8 @@ in this work:
 - USB A to micro B cable
 ### 1.2 Program the hardware 
 The files required to program the Cmod A7-35T board can be found in the folder `Hardware`. 
-The steps of programing is written, which can be found in the 
-[ProgramCmodA7-35T.md](Hardware/ProgramCmodA7-35T.md) in `Hardware`. 
+The steps of programing the hardware can be found in the 
+[ProgramCmodA7-35T.md](Hardware/ProgramCmodA7-35T.md) under `Hardware`. 
 
 ## 2. Run the IOC
 The softIOC was developed with python, and `pythonSoftIOC` is the main module that provides the 
