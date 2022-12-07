@@ -21,10 +21,11 @@ The steps of programing is written, which can be found in the
 ## 2. Run the IOC
 The softIOC was developed with python, and `pythonSoftIOC` is the main module that provides the 
 interface with EPICS. The python script was developed and tested with `Python 3.10.4`.
-## 2.1 Preparation
+### 2.1 Preparation
 - Python 3 installed, the modules used include
   - Commonly used modules: `serial`, `time`, `math`, `sys`, `struct`.
-  - EPICS related modules: [asyncio](https://pypi.org/project/asyncio/), [softioc](https://pypi.org/project/softioc/)
+  - EPICS related modules: [epicscorelib](https://pypi.org/project/epicscorelibs/),
+    [softioc](https://pypi.org/project/softioc/), and [asyncio](https://pypi.org/project/asyncio/)
 
 The `root` privilege is required to run the IOC script. It should be carefully checked for the 
 `root` user, which might be different from the common users. 
@@ -38,6 +39,12 @@ To check the python version and installed modules for the `root` user, use the f
 ```
 sudo python --version
 sudo pip list
+```
+
+You may also need to install `python3-devel` and other libs if needed.
+```commandline
+yum install python3-devel
+
 ```
 
 ### 2.2 Run the IOC
